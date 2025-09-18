@@ -1,5 +1,5 @@
 function ToDoItem() {
-  let todotask = "Buy Car ";
+  let todotask = "Buy Car";
   let tododt = "09/01/2025 06:00 PM";
 
   return (
