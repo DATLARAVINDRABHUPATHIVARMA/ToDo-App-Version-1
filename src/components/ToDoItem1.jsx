@@ -6,7 +6,7 @@ function ToDoItem1() {
     <div class="container">
       <div class="row td-row">
         <div class="col-2">{tododt}</div> 
-        <div class="col">{todotask}</div> 
+        <div class="col">{todotask}</div>
         <div class="col-md-auto">
           <button type="button" class="btn btn-danger t-button">
             Delete
