@@ -8,7 +8,7 @@ function ToDoItem1() {
         <div class="col-2">{tododt}</div> 
         <div class="col">{todotask}</div>
         <div class="col-md-auto">
-          <button type="button" class="btn btn-danger t-button">
+          <button type='button' class="btn btn-danger t-button">
             Delete
           </button>
         </div> 
