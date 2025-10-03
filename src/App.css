@@ -8,12 +8,15 @@ h1{
 input{
   width: 100%;
 }
+
 .list-container{
   text-align: left;
 }
+
 .td-row{
   margin: 10px 5px; 
 }
+
 .t-button{
   min-width: 80px;
 }
