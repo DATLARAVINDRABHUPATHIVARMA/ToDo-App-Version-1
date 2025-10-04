@@ -1,4 +1,4 @@
-function AppName() {
+function AppName () {
   return <h1>ToDo App</h1>;
 }
 
