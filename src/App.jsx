@@ -7,12 +7,12 @@ import ToDoItem2 from "./components/ToDoItem2";
 function App() {
   return (
     <center class="todo-container">
-      <AppName />
-      <AddToDo />
+      <AppName /> 
+      <AddToDo /> 
       <div class="list-container">
-        <ToDoItem />
-        <ToDoItem1 />
-        <ToDoItem2 />
+        <ToDoItem /> 
+        <ToDoItem1 /> 
+        <ToDoItem2 /> 
       </div>
     </center>
   );
