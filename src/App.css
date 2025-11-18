@@ -1,21 +1,22 @@
-h1{
+h1 {
   font-weight: 700;
   font-size: 50px;
   margin: 10px;
   margin-bottom: 15px;
 }
 
-input{
+input {
   width: 100%;
 }
 
-.list-container{
+.list-container {
   text-align: left;
 }
 
-.td-row{
-  margin: 10px 5px; 
+.td-row {
+  margin: 10px 5px;
 }
-.t-button{
+
+.t-button {
   min-width: 80px;
 }
