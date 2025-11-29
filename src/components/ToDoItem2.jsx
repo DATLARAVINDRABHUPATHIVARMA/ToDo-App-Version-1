@@ -16,7 +16,7 @@ function ToDoItem2() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
 export default ToDoItem2;
