@@ -1,19 +1,21 @@
 import AddToDo from "./components/AddToDo";
 import AppName from "./components/AppName";
-import ToDoItem from "./components/ToDoItem";
-import ToDoItem1 from "./components/ToDoItem1";
-import ToDoItem2 from "./components/ToDoItem2";
+import ToDoItems from "./components/ToDoItems";
 
 function App() {
+
+  const todoItems = [
+    { todotask: "Fitness Period", todofrom: "10/12/2025 07:00 AM", todoto: "10/12/2025 08:00 AM" },
+    { todotask: "Ready and Refresh", todofrom: "10/12/2025 08:00 AM", todoto: "09/12/2025 09:00 AM" },
+    { todotask: "Breakfast Time", todofrom: "10/12/2025 09:00 AM", todoto: "10/12/2025 09:30 AM" },
+    { todotask: "Office Work", todofrom: "10/12/2025 09:30 AM", todoto: "10/12/2025 10:00 AM" },
+  ]
+
   return (
-    <center class="todo-container">
+    <center className="todo-container">
       <AppName />
       <AddToDo />
-      <div class="list-container">
-        <ToDoItem />
-        <ToDoItem1 />
-        <ToDoItem2 />
-      </div>
+      <ToDoItems todoItems={todoItems}></ToDoItems>
     </center>
   );
 }

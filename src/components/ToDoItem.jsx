@@ -1,17 +1,13 @@
-function ToDoItem() {
-  let todotask = "Buy Car";
-  let todofrom = "09/01/2025 06:00 PM";
-  let todoto = "09/01/2025 07:00 PM";
-
+function ToDoItem({ todotask, todofrom, todoto }) {
   return (
-    <div class="container">
-      <div class="row td-row">
-        <div class="col-2">{todofrom}</div>
-        <div class="col-2">{todoto}</div>
-        <div class="col">{todotask}</div>
-        <div class="col-md-auto">
-          <button type="button" class="btn btn-danger t-button">
-            Delete 
+    <div className="container">
+      <div className="row td-row">
+        <div className="col-2">{todofrom}</div>
+        <div className="col-2">{todoto}</div>
+        <div className="col">{todotask}</div>
+        <div className="col-md-auto">
+          <button type="button" className="btn btn-danger t-button">
+            Delete
           </button>
         </div>
       </div>
